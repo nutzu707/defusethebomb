@@ -53,28 +53,27 @@ export default function Bomb() {
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [answerStatus, setAnswerStatus] = useState<"correct" | "wrong" | null>(null);
-  // Removed optionsOrder state as it was unused
   const [quizStarted, setQuizStarted] = useState(false);
 
-  // New: Track if quiz is over due to time running out
+  // Track if quiz is over due to time running out
   const [timeExpired, setTimeExpired] = useState(false);
 
   // Track the time remaining when the bomb is defused
   const [defuseTime, setDefuseTime] = useState<number | null>(null);
 
-  // Fetch and shuffle questions on mount or on retry
+  // Track number of correct answers
+  const [correctCount, setCorrectCount] = useState(0);
+
+  // Fetch and shuffle all questions on mount or on retry
   const fetchQuestions = () => {
     fetch("/questions.json")
       .then((res) => res.json())
       .then((data: Question[]) => {
-        const shuffled = shuffle(data)
-          .slice(0, 10)
-          .map((q) => ({
-            ...q,
-            options: shuffle(q.options),
-          }));
+        const shuffled = shuffle(data).map((q) => ({
+          ...q,
+          options: shuffle(q.options),
+        }));
         setQuestions(shuffled);
-        // Removed setOptionsOrder as optionsOrder is not used
       });
   };
 
@@ -109,30 +108,29 @@ export default function Bomb() {
     if (questions.length > 0 && current < questions.length) {
       setSelected(null);
       setAnswerStatus(null);
-      // Removed setOptionsOrder as optionsOrder is not used
     }
   }, [current, questions]);
 
   // If quiz is finished before time runs out, stop timer
   useEffect(() => {
-    if (current >= questions.length && running) {
+    if ((current >= questions.length || correctCount >= 6) && running) {
       setRunning(false);
       if (intervalRef.current) clearInterval(intervalRef.current);
     }
-  }, [current, questions.length, running]);
+  }, [current, questions.length, running, correctCount]);
 
   // If time runs out before quiz is done, jump to "other" scenario
   useEffect(() => {
-    if (timeExpired && quizStarted && current < questions.length) {
+    if (timeExpired && quizStarted && current < questions.length && correctCount < 6) {
       setCurrent(questions.length); // Jump to end
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [timeExpired]);
 
-  // Capture the time left when the bomb is defused (quiz finished before time runs out)
+  // Capture the time left when the bomb is defused (6 correct before time runs out)
   useEffect(() => {
     if (
-      current >= questions.length &&
+      correctCount >= 6 &&
       !timeExpired &&
       timeLeft > 0 &&
       defuseTime === null
@@ -140,7 +138,7 @@ export default function Bomb() {
       setDefuseTime(timeLeft);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [current, timeExpired, timeLeft, defuseTime]);
+  }, [correctCount, timeExpired, timeLeft, defuseTime]);
 
   const handleStart = () => {
     if (!running && timeLeft > 0) {
@@ -148,6 +146,8 @@ export default function Bomb() {
       setQuizStarted(true);
       setTimeExpired(false);
       setDefuseTime(null);
+      setCorrectCount(0);
+      setCurrent(0);
     }
   };
 
@@ -158,10 +158,9 @@ export default function Bomb() {
     const chosen = q.options[idx];
     if (chosen === q.answer) {
       setAnswerStatus("correct");
-      // Do nothing to the timer
+      setCorrectCount((prev) => prev + 1);
     } else {
       setAnswerStatus("wrong");
-      // Remove 5 seconds (5000 ms) from the timer, but not below zero
       setTimeLeft((prev) => Math.max(0, prev - 5000));
     }
     // Move to next question after short delay
@@ -179,12 +178,15 @@ export default function Bomb() {
     setQuizStarted(false);
     setTimeExpired(false);
     setDefuseTime(null);
+    setCorrectCount(0);
     fetchQuestions();
   };
 
-  const quizDone = current >= questions.length;
+  // The quiz is done if you have 6 correct answers, or you have answered all questions, or time expired
+  const quizDone = correctCount >= 6 || current >= questions.length || timeExpired;
 
-  const finishedBeforeTime = quizDone && !timeExpired && timeLeft > 0;
+  // You win if you got 6 correct before time ran out
+  const finishedBeforeTime = correctCount >= 6 && !timeExpired && timeLeft > 0;
 
   let timerDisplay;
   let timerClass =
@@ -224,10 +226,18 @@ export default function Bomb() {
           </div>
           <div className="w-1/2 h-200 flex flex-col items-center mt-32">
             {!quizStarted && (
-              <div className="w-full h-full flex items-center justify-center gap-2">
-                <button className="bg-white/30 hover:bg-white/70 text-white px-4 py-2 rounded-md cursor-pointer text-3xl">
-                  WHAT?
-                </button>
+              <div className="w-full h-full flex items-center flex-col justify-center gap-2">
+
+                <h1 className="text-white text-5xl pb-8 text-center">How to play?</h1>
+                <p className="text-white text-3xl text-center">
+                  You have <span className="text-yellow-400">60 seconds</span>
+                </p>
+                <p className="text-white text-3xl  text-center">
+                  Answer <span className="text-green-400">6 questions correctly</span> to defuse the bomb
+                </p>
+                <p className="text-white text-3xl pb-8 text-center">
+                  For each <span className="text-red-500">incorrect</span> answer, <span className="text-red-500">5 seconds will be removed</span> from the timer
+                </p>
                 <button
                   className="bg-white/30 hover:bg-white/70 text-white px-4 py-2 rounded-md cursor-pointer text-3xl"
                   onClick={handleStart}
@@ -312,6 +322,9 @@ export default function Bomb() {
                         </button>
                       );
                     })}
+                  </div>
+                  <div className="mt-6 text-white text-2xl text-center">
+                    Correct answers: <span className="text-green-400">{correctCount}</span> / 6
                   </div>
                 </>
               )}
