@@ -151,15 +151,7 @@ export default function Bomb() {
   }, [correctCount, timeExpired, timeLeft, defuseTime]);
 
   // When pausing or resetting, update lastTimeLeftRef and clear startTimestampRef
-  const pauseTimer = () => {
-    if (startTimestampRef.current !== null) {
-      const elapsed = performance.now() - startTimestampRef.current;
-      lastTimeLeftRef.current = Math.max(0, Math.round(lastTimeLeftRef.current - elapsed));
-      setTimeLeft(lastTimeLeftRef.current);
-      startTimestampRef.current = null;
-    }
-    if (intervalRef.current) clearInterval(intervalRef.current);
-  };
+  
 
   const handleStart = () => {
     if (!running && timeLeft > 0) {
