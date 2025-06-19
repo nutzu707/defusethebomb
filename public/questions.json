@@ -488,5 +488,520 @@
     "question": "Which shape has four equal sides and angles?",
     "options": ["Rectangle", "Triangle", "Square", "Trapezoid"],
     "answer": "Square"
+  },
+  {
+    "question": "What is the largest country by area?",
+    "options": ["USA", "China", "Russia", "Canada"],
+    "answer": "Russia"
+  },
+  {
+    "question": "Which planet is known as the Morning Star?",
+    "options": ["Venus", "Mars", "Mercury", "Jupiter"],
+    "answer": "Venus"
+  },
+  {
+    "question": "What is the freezing point of water in Celsius?",
+    "options": ["0", "32", "100", "-10"],
+    "answer": "0"
+  },
+  {
+    "question": "Which animal is the largest land carnivore?",
+    "options": ["Lion", "Polar Bear", "Tiger", "Grizzly Bear"],
+    "answer": "Polar Bear"
+  },
+  {
+    "question": "What is the capital of Italy?",
+    "options": ["Venice", "Rome", "Milan", "Florence"],
+    "answer": "Rome"
+  },
+  {
+    "question": "Which is the longest bone in the human body?",
+    "options": ["Femur", "Tibia", "Humerus", "Fibula"],
+    "answer": "Femur"
+  },
+  {
+    "question": "Which country is known for maple syrup?",
+    "options": ["USA", "Canada", "Russia", "Sweden"],
+    "answer": "Canada"
+  },
+  {
+    "question": "What is the largest ocean?",
+    "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+    "answer": "Pacific"
+  },
+  {
+    "question": "Which is the largest planet in the solar system?",
+    "options": ["Earth", "Jupiter", "Saturn", "Neptune"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "What is the capital of Spain?",
+    "options": ["Barcelona", "Madrid", "Seville", "Valencia"],
+    "answer": "Madrid"
+  },
+  {
+    "question": "Which animal is known for its trunk?",
+    "options": ["Elephant", "Rhino", "Hippo", "Giraffe"],
+    "answer": "Elephant"
+  },
+  {
+    "question": "Which is the largest continent?",
+    "options": ["Africa", "Asia", "Europe", "North America"],
+    "answer": "Asia"
+  },
+  {
+    "question": "What is the chemical symbol for sodium?",
+    "options": ["Na", "So", "S", "N"],
+    "answer": "Na"
+  },
+  {
+    "question": "Which country is known as the Land Down Under?",
+    "options": ["New Zealand", "Australia", "South Africa", "Argentina"],
+    "answer": "Australia"
+  },
+  {
+    "question": "What is the main ingredient in guacamole?",
+    "options": ["Tomato", "Avocado", "Onion", "Pepper"],
+    "answer": "Avocado"
+  },
+  {
+    "question": "Which is the smallest planet in the solar system?",
+    "options": ["Mercury", "Mars", "Venus", "Pluto"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "What is the capital of Russia?",
+    "options": ["Moscow", "St. Petersburg", "Kiev", "Sochi"],
+    "answer": "Moscow"
+  },
+  {
+    "question": "Which animal is known for building dams?",
+    "options": ["Otter", "Beaver", "Muskrat", "Mole"],
+    "answer": "Beaver"
+  },
+  {
+    "question": "What is the largest species of shark?",
+    "options": ["Great White", "Hammerhead", "Whale Shark", "Tiger Shark"],
+    "answer": "Whale Shark"
+  },
+  {
+    "question": "Which is the largest living bird by height?",
+    "options": ["Ostrich", "Emu", "Cassowary", "Rhea"],
+    "answer": "Ostrich"
+  },
+  {
+    "question": "What is the capital of China?",
+    "options": ["Shanghai", "Beijing", "Guangzhou", "Shenzhen"],
+    "answer": "Beijing"
+  },
+  {
+    "question": "Which is the largest species of penguin?",
+    "options": ["Emperor", "King", "Adelie", "Gentoo"],
+    "answer": "Emperor"
+  },
+  {
+    "question": "What is the main ingredient in hummus?",
+    "options": ["Lentils", "Chickpeas", "Beans", "Peas"],
+    "answer": "Chickpeas"
+  },
+  {
+    "question": "Which is the largest reptile?",
+    "options": ["Komodo Dragon", "Saltwater Crocodile", "Alligator", "Anaconda"],
+    "answer": "Saltwater Crocodile"
+  },
+  {
+    "question": "What is the capital of Egypt?",
+    "options": ["Cairo", "Alexandria", "Giza", "Luxor"],
+    "answer": "Cairo"
+  },
+  {
+    "question": "Which is the largest moon in the solar system?",
+    "options": ["Titan", "Ganymede", "Europa", "Callisto"],
+    "answer": "Ganymede"
+  },
+  {
+    "question": "What is the main ingredient in miso soup?",
+    "options": ["Soybean paste", "Rice", "Seaweed", "Fish"],
+    "answer": "Soybean paste"
+  },
+  {
+    "question": "Which is the largest rodent?",
+    "options": ["Rat", "Capybara", "Beaver", "Guinea Pig"],
+    "answer": "Capybara"
+  },
+  {
+    "question": "What is the capital of Mexico?",
+    "options": ["Guadalajara", "Mexico City", "Monterrey", "Cancun"],
+    "answer": "Mexico City"
+  },
+  {
+    "question": "Which is the largest carnivorous land animal?",
+    "options": ["Lion", "Polar Bear", "Grizzly Bear", "Tiger"],
+    "answer": "Polar Bear"
+  },
+  {
+    "question": "What is the main ingredient in tofu?",
+    "options": ["Soybeans", "Rice", "Wheat", "Corn"],
+    "answer": "Soybeans"
+  },
+  {
+    "question": "Which is the largest living lizard?",
+    "options": ["Komodo Dragon", "Monitor Lizard", "Iguana", "Gecko"],
+    "answer": "Komodo Dragon"
+  },
+  {
+    "question": "What is the capital of South Korea?",
+    "options": ["Busan", "Seoul", "Incheon", "Daegu"],
+    "answer": "Seoul"
+  },
+  {
+    "question": "Which is the largest marsupial?",
+    "options": ["Kangaroo", "Koala", "Wombat", "Tasmanian Devil"],
+    "answer": "Kangaroo"
+  },
+  {
+    "question": "What is the main ingredient in paella?",
+    "options": ["Rice", "Pasta", "Potato", "Corn"],
+    "answer": "Rice"
+  },
+  {
+    "question": "Which is the largest living amphibian?",
+    "options": ["Giant Salamander", "Frog", "Toad", "Newt"],
+    "answer": "Giant Salamander"
+  },
+  {
+    "question": "What is the capital of Turkey?",
+    "options": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+    "answer": "Ankara"
+  },
+  {
+    "question": "Which is the largest living fish?",
+    "options": ["Whale Shark", "Great White Shark", "Manta Ray", "Sturgeon"],
+    "answer": "Whale Shark"
+  },
+  {
+    "question": "What is the main ingredient in borscht?",
+    "options": ["Beetroot", "Potato", "Carrot", "Cabbage"],
+    "answer": "Beetroot"
+  },
+  {
+    "question": "Which is the largest living snake?",
+    "options": ["Anaconda", "Python", "Cobra", "Viper"],
+    "answer": "Anaconda"
+  },
+  {
+    "question": "What is the capital of Argentina?",
+    "options": ["Buenos Aires", "Cordoba", "Rosario", "Mendoza"],
+    "answer": "Buenos Aires"
+  },
+  {
+    "question": "Which is the largest living turtle?",
+    "options": ["Leatherback", "Green", "Loggerhead", "Hawksbill"],
+    "answer": "Leatherback"
+  },
+  {
+    "question": "What is the main ingredient in falafel?",
+    "options": ["Chickpeas", "Lentils", "Beans", "Peas"],
+    "answer": "Chickpeas"
+  },
+  {
+    "question": "Which is the largest living bat?",
+    "options": ["Flying Fox", "Vampire Bat", "Fruit Bat", "Little Brown Bat"],
+    "answer": "Flying Fox"
+  },
+  {
+    "question": "What is the capital of Thailand?",
+    "options": ["Bangkok", "Phuket", "Chiang Mai", "Pattaya"],
+    "answer": "Bangkok"
+  },
+  {
+    "question": "Which is the largest living primate?",
+    "options": ["Gorilla", "Chimpanzee", "Orangutan", "Baboon"],
+    "answer": "Gorilla"
+  },
+  {
+    "question": "What is the main ingredient in risotto?",
+    "options": ["Rice", "Pasta", "Barley", "Quinoa"],
+    "answer": "Rice"
+  },
+  {
+    "question": "Which is the largest living cat?",
+    "options": ["Lion", "Tiger", "Leopard", "Jaguar"],
+    "answer": "Tiger"
+  },
+  {
+    "question": "What is the capital of Greece?",
+    "options": ["Athens", "Thessaloniki", "Patras", "Heraklion"],
+    "answer": "Athens"
+  },
+  {
+    "question": "Which is the largest living deer?",
+    "options": ["Moose", "Elk", "Red Deer", "Reindeer"],
+    "answer": "Moose"
+  },
+  {
+    "question": "What is the main ingredient in tabbouleh?",
+    "options": ["Bulgur", "Rice", "Couscous", "Quinoa"],
+    "answer": "Bulgur"
+  },
+  {
+    "question": "Which is the largest living bird by wingspan?",
+    "options": ["Albatross", "Eagle", "Condor", "Pelican"],
+    "answer": "Albatross"
+  },
+  {
+    "question": "What is the capital of Sweden?",
+    "options": ["Stockholm", "Gothenburg", "Malmo", "Uppsala"],
+    "answer": "Stockholm"
+  },
+  {
+    "question": "Which is the largest living rodent in North America?",
+    "options": ["Beaver", "Muskrat", "Porcupine", "Capybara"],
+    "answer": "Beaver"
+  },
+  {
+    "question": "What is the main ingredient in polenta?",
+    "options": ["Cornmeal", "Wheat", "Rice", "Oats"],
+    "answer": "Cornmeal"
+  },
+  {
+    "question": "Which is the largest living land animal?",
+    "options": ["Elephant", "Rhino", "Hippo", "Giraffe"],
+    "answer": "Elephant"
+  },
+  {
+    "question": "What is the capital of Norway?",
+    "options": ["Oslo", "Bergen", "Trondheim", "Stavanger"],
+    "answer": "Oslo"
+  },
+  {
+    "question": "Which is the largest living antelope?",
+    "options": ["Eland", "Kudu", "Impala", "Gazelle"],
+    "answer": "Eland"
+  },
+  {
+    "question": "What is the main ingredient in gnocchi?",
+    "options": ["Potato", "Rice", "Wheat", "Corn"],
+    "answer": "Potato"
+  },
+  {
+    "question": "Which is the largest living marsupial in Australia?",
+    "options": ["Kangaroo", "Koala", "Wombat", "Wallaby"],
+    "answer": "Kangaroo"
+  },
+  {
+    "question": "What is the capital of Portugal?",
+    "options": ["Lisbon", "Porto", "Faro", "Coimbra"],
+    "answer": "Lisbon"
+  },
+  {
+    "question": "Which is the largest living canid?",
+    "options": ["Wolf", "Coyote", "Fox", "Jackal"],
+    "answer": "Wolf"
+  },
+  {
+    "question": "What is the main ingredient in couscous?",
+    "options": ["Wheat", "Rice", "Corn", "Barley"],
+    "answer": "Wheat"
+  },
+  {
+    "question": "Which is the largest living parrot?",
+    "options": ["Hyacinth Macaw", "African Grey", "Cockatoo", "Amazon Parrot"],
+    "answer": "Hyacinth Macaw"
+  },
+  {
+    "question": "What is the capital of Finland?",
+    "options": ["Helsinki", "Turku", "Tampere", "Oulu"],
+    "answer": "Helsinki"
+  },
+  {
+    "question": "Which is the largest living penguin species?",
+    "options": ["Emperor", "King", "Adelie", "Gentoo"],
+    "answer": "Emperor"
+  },
+  {
+    "question": "What is the main ingredient in tempura batter?",
+    "options": ["Flour", "Rice", "Cornmeal", "Potato"],
+    "answer": "Flour"
+  },
+  {
+    "question": "Which is the largest living owl?",
+    "options": ["Eurasian Eagle Owl", "Barn Owl", "Snowy Owl", "Great Horned Owl"],
+    "answer": "Eurasian Eagle Owl"
+  },
+  {
+    "question": "What is the capital of Denmark?",
+    "options": ["Copenhagen", "Aarhus", "Odense", "Aalborg"],
+    "answer": "Copenhagen"
+  },
+  {
+    "question": "Which is the largest living frog?",
+    "options": ["Goliath Frog", "Bullfrog", "Tree Frog", "Poison Dart Frog"],
+    "answer": "Goliath Frog"
+  },
+  {
+    "question": "What is the main ingredient in ramen?",
+    "options": ["Noodles", "Rice", "Tofu", "Seaweed"],
+    "answer": "Noodles"
+  },
+  {
+    "question": "Which is the largest living whale?",
+    "options": ["Blue Whale", "Humpback Whale", "Fin Whale", "Gray Whale"],
+    "answer": "Blue Whale"
+  },
+  {
+    "question": "What is the capital of Poland?",
+    "options": ["Warsaw", "Krakow", "Gdansk", "Wroclaw"],
+    "answer": "Warsaw"
+  },
+  {
+    "question": "Which is the largest living snake by length?",
+    "options": ["Reticulated Python", "Anaconda", "King Cobra", "Boa Constrictor"],
+    "answer": "Reticulated Python"
+  },
+  {
+    "question": "What is the main ingredient in moussaka?",
+    "options": ["Eggplant", "Potato", "Zucchini", "Tomato"],
+    "answer": "Eggplant"
+  },
+  {
+    "question": "Which is the largest living dolphin?",
+    "options": ["Orca", "Bottlenose", "Spinner", "Common Dolphin"],
+    "answer": "Orca"
+  },
+  {
+    "question": "What is the capital of Hungary?",
+    "options": ["Budapest", "Debrecen", "Szeged", "Pecs"],
+    "answer": "Budapest"
+  },
+  {
+    "question": "Which is the largest living crab?",
+    "options": ["Japanese Spider Crab", "King Crab", "Blue Crab", "Dungeness Crab"],
+    "answer": "Japanese Spider Crab"
+  },
+  {
+    "question": "What is the main ingredient in gazpacho?",
+    "options": ["Tomato", "Cucumber", "Pepper", "Onion"],
+    "answer": "Tomato"
+  },
+  {
+    "question": "Which is the largest living bony fish?",
+    "options": ["Ocean Sunfish", "Tuna", "Marlin", "Swordfish"],
+    "answer": "Ocean Sunfish"
+  },
+  {
+    "question": "What is the capital of Ireland?",
+    "options": ["Dublin", "Cork", "Galway", "Limerick"],
+    "answer": "Dublin"
+  },
+  {
+    "question": "Which is the largest living rodent in South America?",
+    "options": ["Capybara", "Guinea Pig", "Chinchilla", "Agouti"],
+    "answer": "Capybara"
+  },
+  {
+    "question": "What is the main ingredient in kimchi?",
+    "options": ["Cabbage", "Radish", "Carrot", "Spinach"],
+    "answer": "Cabbage"
+  },
+  {
+    "question": "Which is the largest living eagle?",
+    "options": ["Harpy Eagle", "Bald Eagle", "Golden Eagle", "Steller's Sea Eagle"],
+    "answer": "Steller's Sea Eagle"
+  },
+  {
+    "question": "What is the capital of Switzerland?",
+    "options": ["Bern", "Zurich", "Geneva", "Basel"],
+    "answer": "Bern"
+  },
+  {
+    "question": "Which is the largest living salamander?",
+    "options": ["Chinese Giant Salamander", "Axolotl", "Tiger Salamander", "Fire Salamander"],
+    "answer": "Chinese Giant Salamander"
+  },
+  {
+    "question": "What is the main ingredient in pesto?",
+    "options": ["Basil", "Parsley", "Cilantro", "Mint"],
+    "answer": "Basil"
+  },
+  {
+    "question": "Which is the largest living bear?",
+    "options": ["Polar Bear", "Grizzly Bear", "Kodiak Bear", "Black Bear"],
+    "answer": "Kodiak Bear"
+  },
+  {
+    "question": "What is the capital of Austria?",
+    "options": ["Vienna", "Salzburg", "Graz", "Innsbruck"],
+    "answer": "Vienna"
+  },
+  {
+    "question": "Which is the largest living rodent in Africa?",
+    "options": ["Porcupine", "Gambian Pouched Rat", "Naked Mole Rat", "Springhare"],
+    "answer": "Porcupine"
+  },
+  {
+    "question": "What is the main ingredient in sauerkraut?",
+    "options": ["Cabbage", "Carrot", "Radish", "Turnip"],
+    "answer": "Cabbage"
+  },
+  {
+    "question": "Which is the largest living marsupial in the Americas?",
+    "options": ["Opossum", "Kangaroo", "Koala", "Wombat"],
+    "answer": "Opossum"
+  },
+  {
+    "question": "What is the capital of Belgium?",
+    "options": ["Brussels", "Antwerp", "Ghent", "Bruges"],
+    "answer": "Brussels"
+  },
+  {
+    "question": "Which is the largest living rodent in Europe?",
+    "options": ["Beaver", "Muskrat", "Porcupine", "Mole"],
+    "answer": "Beaver"
+  },
+  {
+    "question": "What is the main ingredient in tzatziki?",
+    "options": ["Yogurt", "Sour Cream", "Mayonnaise", "Cream Cheese"],
+    "answer": "Yogurt"
+  },
+  {
+    "question": "Which is the largest living rodent in Asia?",
+    "options": ["Capybara", "Giant Squirrel", "Beaver", "Porcupine"],
+    "answer": "Porcupine"
+  },
+  {
+    "question": "What is the capital of the Netherlands?",
+    "options": ["Amsterdam", "Rotterdam", "The Hague", "Utrecht"],
+    "answer": "Amsterdam"
+  },
+  {
+    "question": "Which is the largest living rodent in Australia?",
+    "options": ["Water Rat", "Bush Rat", "Swamp Rat", "Long-haired Rat"],
+    "answer": "Water Rat"
+  },
+  {
+    "question": "What is the main ingredient in bolognese sauce?",
+    "options": ["Beef", "Pork", "Chicken", "Lamb"],
+    "answer": "Beef"
+  },
+  {
+    "question": "Which is the largest living rodent in Antarctica?",
+    "options": ["None", "Seal", "Penguin", "Skua"],
+    "answer": "None"
+  },
+  {
+    "question": "What is the capital of New Zealand?",
+    "options": ["Wellington", "Auckland", "Christchurch", "Dunedin"],
+    "answer": "Wellington"
+  },
+  {
+    "question": "Which is the largest living rodent in South America?",
+    "options": ["Capybara", "Guinea Pig", "Chinchilla", "Agouti"],
+    "answer": "Capybara"
+  },
+  {
+    "question": "What is the main ingredient in sushi rolls?",
+    "options": ["Rice", "Seaweed", "Fish", "Vegetables"],
+    "answer": "Rice"
   }
 ]

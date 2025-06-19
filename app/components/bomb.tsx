@@ -15,6 +15,22 @@ const digitalFontFace = `
 }
 `;
 
+// Red timer shadow
+const timerTextShadowRed = `
+  0 0 16px #ff0000,
+  0 0 32px #ff0000,
+  0 2px 8px #000,
+  0 0 2px #fff
+`;
+
+// Green timer shadow
+const timerTextShadowGreen = `
+  0 0 16px #22ff22,
+  0 0 32px #22ff22,
+  0 2px 8px #000,
+  0 0 2px #fff
+`;
+
 function formatTime(ms: number) {
   const minutes = Math.floor(ms / 60000);
   const seconds = Math.floor((ms % 60000) / 1000);
@@ -67,6 +83,9 @@ export default function Bomb() {
 
   // Track number of correct answers
   const [correctCount, setCorrectCount] = useState(0);
+
+  // Animation state for -5
+  const [showMinusFive, setShowMinusFive] = useState(false);
 
   // Fetch and shuffle all questions on mount or on retry
   const fetchQuestions = () => {
@@ -150,8 +169,15 @@ export default function Bomb() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [correctCount, timeExpired, timeLeft, defuseTime]);
 
-  // When pausing or resetting, update lastTimeLeftRef and clear startTimestampRef
-  
+  // Animation effect for -5
+  useEffect(() => {
+    if (showMinusFive) {
+      const timeout = setTimeout(() => {
+        setShowMinusFive(false);
+      }, 900); // match animation duration
+      return () => clearTimeout(timeout);
+    }
+  }, [showMinusFive]);
 
   const handleStart = () => {
     if (!running && timeLeft > 0) {
@@ -179,6 +205,7 @@ export default function Bomb() {
     } else {
       setAnswerStatus("wrong");
       // Subtract 5 seconds from both timeLeft and lastTimeLeftRef
+      setShowMinusFive(true); // trigger -5 animation
       setTimeLeft((prev) => {
         const newTime = Math.max(0, prev - 5000);
         lastTimeLeftRef.current = newTime;
@@ -221,22 +248,88 @@ export default function Bomb() {
   let timerDisplay;
   let timerClass =
     "text-8xl absolute w-90 justify-center rotate-0.5 ml-16 top-[23.1%] pointer-events-none";
+  let timerTextShadowStyle: React.CSSProperties = {};
+
   if (quizDone) {
     if (finishedBeforeTime) {
       timerDisplay = formatTime(defuseTime !== null ? defuseTime : timeLeft);
-      timerClass += " text-green-400";
+      timerClass += " text-green-400 timer-green-shadow";
+      timerTextShadowStyle = {
+        textShadow: timerTextShadowGreen,
+      };
     } else {
       timerDisplay = "UNLUCKY!";
-      timerClass += " text-red-500";
+      timerClass += " text-red-500 timer-red-shadow";
+      timerTextShadowStyle = {
+        textShadow: timerTextShadowRed,
+      };
     }
   } else {
     timerDisplay = formatTime(timeLeft);
-    timerClass += " text-red-500";
+    timerClass += " text-red-500 timer-red-shadow";
+    timerTextShadowStyle = {
+      textShadow: timerTextShadowRed,
+    };
   }
 
   return (
     <>
       <style>{digitalFontFace}</style>
+      {/* -5 animation style and timer shadow */}
+      <style>{`
+        @keyframes minusFivePop {
+          0% {
+            opacity: 0;
+            transform: translateY(0) scale(0.7);
+          }
+          10% {
+            opacity: 1;
+            transform: translateY(-10px) scale(1.2);
+          }
+          60% {
+            opacity: 1;
+            transform: translateY(-60px) scale(1.2);
+          }
+          100% {
+            opacity: 0;
+            transform: translateY(-120px) scale(0.7);
+          }
+        }
+        .minus-five-anim {
+          position: absolute;
+          left: 50%;
+          top: 7%;
+          transform: translateX(-50%);
+          z-index: 30;
+          font-size: 7rem;
+          font-family: 'Digital7', monospace;
+          color: #F44336;
+          text-shadow:
+            0 0 16px #F44336,
+            0 0 32px #F44336,
+            0 2px 8px #000,
+            0 0 2px #fff;
+          font-weight: bold;
+          letter-spacing: 0.1em;
+          pointer-events: none;
+          animation: minusFivePop 0.9s cubic-bezier(.4,1.6,.6,1) forwards;
+          user-select: none;
+        }
+        .timer-red-shadow {
+          text-shadow:
+            0 0 16px #F44336,
+            0 0 32px #F44336,
+            0 2px 8px #000,
+            0 0 2px #fff;
+        }
+        .timer-green-shadow {
+          text-shadow:
+            0 0 16px #22ff22,
+            0 0 32px #22ff22,
+            0 2px 8px #000,
+            0 0 2px #fff;
+        }
+      `}</style>
       <div className="w-full">
         <div className="flex w-full">
           <div className="w-1/2 relative flex items-center justify-center">
@@ -247,8 +340,12 @@ export default function Bomb() {
               draggable="false"
               style={{ userSelect: "none", WebkitUserDrag: "none" } as React.CSSProperties}
             />
+            {/* -5 animation */}
+            {showMinusFive && (
+              <span className="minus-five-anim">-5</span>
+            )}
             <h1
-              style={digitalFontStyle}
+              style={{ ...digitalFontStyle, ...timerTextShadowStyle }}
               className={timerClass}
             >
               {timerDisplay}
@@ -294,7 +391,13 @@ export default function Bomb() {
                     </h1>
                     <h2 className="text-white text-4xl p-2 text-center flex items-center">
                       Time remaining:{" "}
-                      <span style={digitalFontStyle} className="text-6xl text-green-400 ml-4">
+                      <span
+                        style={{
+                          ...digitalFontStyle,
+                          textShadow: timerTextShadowGreen,
+                        }}
+                        className="text-6xl text-green-400 ml-4 timer-green-shadow"
+                      >
                         {formatTime(defuseTime !== null ? defuseTime : timeLeft)}
                       </span>
                     </h2>
