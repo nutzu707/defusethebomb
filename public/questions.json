@@ -1,438 +1,492 @@
 [
-    {
-      "question": "Fastest land animal?",
-      "options": ["Cheetah", "Lion", "Horse", "Kangaroo"],
-      "answer": "Cheetah"
-    },
-    {
-      "question": "Capital of Japan?",
-      "options": ["Tokyo", "Kyoto", "Osaka", "Nagoya"],
-      "answer": "Tokyo"
-    },
-    {
-      "question": "Largest planet?",
-      "options": ["Earth", "Jupiter", "Saturn", "Mars"],
-      "answer": "Jupiter"
-    },
-    {
-      "question": "Heaviest metal?",
-      "options": ["Iron", "Lead", "Osmium", "Gold"],
-      "answer": "Osmium"
-    },
-    {
-      "question": "Smallest bone?",
-      "options": ["Femur", "Stapes", "Tibia", "Ulna"],
-      "answer": "Stapes"
-    },
-    {
-      "question": "Tallest animal?",
-      "options": ["Elephant", "Giraffe", "Bear", "Ostrich"],
-      "answer": "Giraffe"
-    },
-    {
-      "question": "Most spoken language?",
-      "options": ["English", "Hindi", "Mandarin", "Spanish"],
-      "answer": "Mandarin"
-    },
-    {
-      "question": "First U.S. president?",
-      "options": ["Lincoln", "Adams", "Washington", "Jefferson"],
-      "answer": "Washington"
-    },
-    {
-      "question": "Longest river?",
-      "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
-      "answer": "Nile"
-    },
-    {
-      "question": "Hardest substance?",
-      "options": ["Diamond", "Gold", "Steel", "Quartz"],
-      "answer": "Diamond"
-    },
-    {
-      "question": "5 + 7 = ?",
-      "options": ["12", "10", "14", "13"],
-      "answer": "12"
-    },
-    {
-      "question": "Largest ocean?",
-      "options": ["Atlantic", "Pacific", "Indian", "Arctic"],
-      "answer": "Pacific"
-    },
-    {
-      "question": "Main gas in air?",
-      "options": ["Oxygen", "Nitrogen", "CO2", "Hydrogen"],
-      "answer": "Nitrogen"
-    },
-    {
-      "question": "Most used emoji?",
-      "options": ["😂", "❤️", "👍", "😭"],
-      "answer": "😂"
-    },
-    {
-      "question": "Hottest planet in the solar system?",
-      "options": ["Venus", "Mercury", "Mars", "Jupiter"],
-      "answer": "Venus"
-    },
-    {
-      "question": "Who wrote 'Romeo and Juliet'?",
-      "options": ["Shakespeare", "Dickens", "Austen", "Hemingway"],
-      "answer": "Shakespeare"
-    },
-    {
-      "question": "Chemical symbol for gold?",
-      "options": ["Au", "Ag", "Gd", "Go"],
-      "answer": "Au"
-    },
-    {
-      "question": "Largest mammal?",
-      "options": ["Blue whale", "Elephant", "Giraffe", "Hippopotamus"],
-      "answer": "Blue whale"
-    },
-    {
-      "question": "First element on the periodic table?",
-      "options": ["Hydrogen", "Helium", "Oxygen", "Carbon"],
-      "answer": "Hydrogen"
-    },
-    {
-      "question": "Which country invented pizza?",
-      "options": ["Italy", "France", "USA", "Greece"],
-      "answer": "Italy"
-    },
-    {
-      "question": "How many continents are there?",
-      "options": ["7", "5", "6", "8"],
-      "answer": "7"
-    },
-    {
-      "question": "Which planet is known as the Red Planet?",
-      "options": ["Mars", "Venus", "Jupiter", "Saturn"],
-      "answer": "Mars"
-    },
-    {
-      "question": "What is the boiling point of water (°C)?",
-      "options": ["100", "90", "80", "120"],
-      "answer": "100"
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle?",
-      "options": ["Lion", "Tiger", "Elephant", "Leopard"],
-      "answer": "Lion"
-    },
-    {
-      "question": "What is the capital of France?",
-      "options": ["Paris", "London", "Berlin", "Madrid"],
-      "answer": "Paris"
-    },
-    {
-      "question": "Which is the smallest continent?",
-      "options": ["Australia", "Europe", "Antarctica", "South America"],
-      "answer": "Australia"
-    },
-    {
-      "question": "What is the square root of 64?",
-      "options": ["8", "6", "7", "9"],
-      "answer": "8"
-    },
-    {
-      "question": "Which gas do plants absorb?",
-      "options": ["CO2", "Oxygen", "Nitrogen", "Hydrogen"],
-      "answer": "CO2"
-    },
-    {
-      "question": "Who painted the Mona Lisa?",
-      "options": ["Leonardo da Vinci", "Michelangelo", "Picasso", "Van Gogh"],
-      "answer": "Leonardo da Vinci"
-    },
-    {
-      "question": "Which is the largest desert?",
-      "options": ["Sahara", "Gobi", "Kalahari", "Arctic"],
-      "answer": "Sahara"
-    },
-    {
-      "question": "Which is the longest bone in the human body?",
-      "options": ["Femur", "Tibia", "Humerus", "Fibula"],
-      "answer": "Femur"
-    },
-    {
-      "question": "Which is the largest internal organ?",
-      "options": ["Liver", "Heart", "Lung", "Kidney"],
-      "answer": "Liver"
-    },
-    {
-      "question": "Which is the largest bird?",
-      "options": ["Ostrich", "Eagle", "Penguin", "Albatross"],
-      "answer": "Ostrich"
-    },
-    {
-      "question": "Which is the smallest prime number?",
-      "options": ["2", "1", "3", "5"],
-      "answer": "2"
-    },
-    {
-      "question": "Which is the largest island?",
-      "options": ["Greenland", "Australia", "Borneo", "Madagascar"],
-      "answer": "Greenland"
-    },
-    {
-      "question": "Which is the largest country by area?",
-      "options": ["Russia", "Canada", "China", "USA"],
-      "answer": "Russia"
-    },
-    {
-      "question": "Which is the most abundant gas in Earth's atmosphere?",
-      "options": ["Nitrogen", "Oxygen", "CO2", "Argon"],
-      "answer": "Nitrogen"
-    },
-    {
-      "question": "Which is the largest continent?",
-      "options": ["Asia", "Africa", "Europe", "North America"],
-      "answer": "Asia"
-    },
-    {
-      "question": "Which is the smallest ocean?",
-      "options": ["Arctic", "Indian", "Atlantic", "Pacific"],
-      "answer": "Arctic"
-    },
-    {
-      "question": "Which is the largest bone in the human body?",
-      "options": ["Femur", "Tibia", "Humerus", "Radius"],
-      "answer": "Femur"
-    },
-    {
-      "question": "Which is the largest muscle in the human body?",
-      "options": ["Gluteus maximus", "Biceps", "Triceps", "Deltoid"],
-      "answer": "Gluteus maximus"
-    },
-    {
-      "question": "Which is the largest land carnivore?",
-      "options": ["Polar bear", "Lion", "Tiger", "Grizzly bear"],
-      "answer": "Polar bear"
-    },
-    {
-      "question": "Which is the largest reptile?",
-      "options": ["Saltwater crocodile", "Komodo dragon", "Anaconda", "Alligator"],
-      "answer": "Saltwater crocodile"
-    },
-    {
-      "question": "Which is the largest fish?",
-      "options": ["Whale shark", "Great white shark", "Bluefin tuna", "Manta ray"],
-      "answer": "Whale shark"
-    },
-    {
-      "question": "Which is the largest flower?",
-      "options": ["Rafflesia", "Sunflower", "Rose", "Lily"],
-      "answer": "Rafflesia"
-    },
-    {
-      "question": "Which is the largest volcano?",
-      "options": ["Mauna Loa", "Mount Everest", "Krakatoa", "Mount Fuji"],
-      "answer": "Mauna Loa"
-    },
-    {
-      "question": "Which is the largest lake?",
-      "options": ["Caspian Sea", "Lake Superior", "Lake Victoria", "Lake Baikal"],
-      "answer": "Caspian Sea"
-    },
-    {
-      "question": "Which is the largest waterfall?",
-      "options": ["Angel Falls", "Niagara Falls", "Victoria Falls", "Iguazu Falls"],
-      "answer": "Angel Falls"
-    },
-    {
-      "question": "Which is the largest dam?",
-      "options": ["Three Gorges", "Hoover", "Itaipu", "Aswan"],
-      "answer": "Three Gorges"
-    },
-    {
-      "question": "Which is the largest stadium?",
-      "options": ["Rungrado 1st of May", "Camp Nou", "Wembley", "Maracanã"],
-      "answer": "Rungrado 1st of May"
-    },
-    {
-      "question": "Which is the largest airport?",
-      "options": ["King Fahd", "Hartsfield–Jackson", "Beijing Capital", "Dubai Intl"],
-      "answer": "King Fahd"
-    },
-    {
-      "question": "Which is the largest animal ever?",
-      "options": ["Blue whale", "Argentinosaurus", "Megalodon", "Tyrannosaurus"],
-      "answer": "Blue whale"
-    },
-    {
-      "question": "Which is the largest living lizard?",
-      "options": ["Komodo dragon", "Monitor lizard", "Iguana", "Gecko"],
-      "answer": "Komodo dragon"
-    },
-    {
-      "question": "Which is the largest rodent?",
-      "options": ["Capybara", "Beaver", "Rat", "Guinea pig"],
-      "answer": "Capybara"
-    },
-    {
-      "question": "Which is the largest marsupial?",
-      "options": ["Red kangaroo", "Koala", "Wombat", "Tasmanian devil"],
-      "answer": "Red kangaroo"
-    },
-    {
-      "question": "Which is the largest bat?",
-      "options": ["Flying fox", "Vampire bat", "Fruit bat", "Little brown bat"],
-      "answer": "Flying fox"
-    },
-    {
-      "question": "Which is the largest species of penguin?",
-      "options": ["Emperor", "King", "Adelie", "Chinstrap"],
-      "answer": "Emperor"
-    },
-    {
-      "question": "Which is the largest species of shark?",
-      "options": ["Whale shark", "Great white", "Hammerhead", "Tiger shark"],
-      "answer": "Whale shark"
-    },
-    {
-      "question": "Which is the largest species of bear?",
-      "options": ["Polar bear", "Grizzly", "Black bear", "Panda"],
-      "answer": "Polar bear"
-    },
-    {
-      "question": "Which is the largest species of cat?",
-      "options": ["Tiger", "Lion", "Leopard", "Jaguar"],
-      "answer": "Tiger"
-    },
-    {
-      "question": "Which is the largest species of dog?",
-      "options": ["English Mastiff", "Great Dane", "Saint Bernard", "Irish Wolfhound"],
-      "answer": "English Mastiff"
-    },
-    {
-      "question": "Which is the largest species of deer?",
-      "options": ["Moose", "Elk", "Red deer", "Reindeer"],
-      "answer": "Moose"
-    },
-    {
-      "question": "Which is the largest species of snake?",
-      "options": ["Green anaconda", "Reticulated python", "King cobra", "Boa constrictor"],
-      "answer": "Green anaconda"
-    },
-    {
-      "question": "Which is the largest species of turtle?",
-      "options": ["Leatherback", "Green sea turtle", "Loggerhead", "Hawksbill"],
-      "answer": "Leatherback"
-    },
-    {
-      "question": "Which is the largest species of frog?",
-      "options": ["Goliath frog", "Bullfrog", "Tree frog", "Poison dart frog"],
-      "answer": "Goliath frog"
-    },
-    {
-      "question": "Which is the largest species of butterfly?",
-      "options": ["Queen Alexandra's birdwing", "Monarch", "Swallowtail", "Blue morpho"],
-      "answer": "Queen Alexandra's birdwing"
-    },
-    {
-      "question": "Which is the largest species of spider?",
-      "options": ["Goliath birdeater", "Tarantula", "Black widow", "Wolf spider"],
-      "answer": "Goliath birdeater"
-    },
-    {
-      "question": "Which is the largest species of ant?",
-      "options": ["Driver ant", "Bullet ant", "Carpenter ant", "Fire ant"],
-      "answer": "Driver ant"
-    },
-    {
-      "question": "Which is the largest species of bee?",
-      "options": ["Wallace's giant bee", "Honey bee", "Bumblebee", "Carpenter bee"],
-      "answer": "Wallace's giant bee"
-    },
-    {
-      "question": "Which is the largest species of fish in freshwater?",
-      "options": ["Beluga sturgeon", "Catfish", "Piranha", "Salmon"],
-      "answer": "Beluga sturgeon"
-    },
-    {
-      "question": "Which is the largest species of crocodile?",
-      "options": ["Saltwater crocodile", "Nile crocodile", "American crocodile", "Dwarf crocodile"],
-      "answer": "Saltwater crocodile"
-    },
-    {
-      "question": "Which is the largest species of eagle?",
-      "options": ["Harpy eagle", "Bald eagle", "Golden eagle", "Steller's sea eagle"],
-      "answer": "Harpy eagle"
-    },
-    {
-      "question": "Which is the largest species of owl?",
-      "options": ["Blakiston's fish owl", "Great horned owl", "Snowy owl", "Barn owl"],
-      "answer": "Blakiston's fish owl"
-    },
-    {
-      "question": "Which is the largest species of parrot?",
-      "options": ["Hyacinth macaw", "African grey", "Cockatoo", "Amazon parrot"],
-      "answer": "Hyacinth macaw"
-    },
-    {
-      "question": "Which is the largest species of dolphin?",
-      "options": ["Orca", "Bottlenose", "Spinner", "Irrawaddy"],
-      "answer": "Orca"
-    },
-    {
-      "question": "Which is the largest species of whale?",
-      "options": ["Blue whale", "Humpback", "Sperm whale", "Gray whale"],
-      "answer": "Blue whale"
-    },
-    {
-      "question": "Which is the largest species of squid?",
-      "options": ["Colossal squid", "Giant squid", "Humboldt squid", "Arrow squid"],
-      "answer": "Colossal squid"
-    },
-    {
-      "question": "Which is the largest species of octopus?",
-      "options": ["Giant Pacific octopus", "Blue-ringed octopus", "Common octopus", "Dumbo octopus"],
-      "answer": "Giant Pacific octopus"
-    },
-    {
-      "question": "Which is the largest species of crab?",
-      "options": ["Japanese spider crab", "King crab", "Blue crab", "Hermit crab"],
-      "answer": "Japanese spider crab"
-    },
-    {
-      "question": "Which is the largest species of lobster?",
-      "options": ["American lobster", "Spiny lobster", "Slipper lobster", "Rock lobster"],
-      "answer": "American lobster"
-    },
-    {
-      "question": "Which is the largest species of shrimp?",
-      "options": ["Mantis shrimp", "Tiger prawn", "White shrimp", "Brown shrimp"],
-      "answer": "Mantis shrimp"
-    },
-    {
-      "question": "Which is the largest species of jellyfish?",
-      "options": ["Lion's mane", "Moon jelly", "Box jelly", "Sea nettle"],
-      "answer": "Lion's mane"
-    },
-    {
-      "question": "Which is the largest species of coral?",
-      "options": ["Great Barrier Reef", "Red Sea Coral", "Elkhorn coral", "Staghorn coral"],
-      "answer": "Great Barrier Reef"
-    },
-    {
-      "question": "Which is the largest species of sea star?",
-      "options": ["Sunflower sea star", "Crown-of-thorns", "Brittle star", "Bat star"],
-      "answer": "Sunflower sea star"
-    },
-    {
-      "question": "Which is the largest species of sea urchin?",
-      "options": ["Red sea urchin", "Purple sea urchin", "Green sea urchin", "Slate pencil urchin"],
-      "answer": "Red sea urchin"
-    },
-    {
-      "question": "Which is the largest species of sea cucumber?",
-      "options": ["Tiger's tail", "Black sea cucumber", "Pink sea cucumber", "Leopard sea cucumber"],
-      "answer": "Tiger's tail"
-    },
-    {
-      "question": "Which is the largest species of barnacle?",
-      "options": ["Giant acorn barnacle", "Goose barnacle", "Rock barnacle", "Little brown barnacle"],
-      "answer": "Giant acorn barnacle"
-    }
-  ]
-  
+  {
+    "question": "Largest planet?",
+    "options": ["Earth", "Jupiter", "Saturn", "Mars"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "Heaviest metal?",
+    "options": ["Iron", "Lead", "Osmium", "Gold"],
+    "answer": "Osmium"
+  },
+  {
+    "question": "Smallest bone?",
+    "options": ["Femur", "Stapes", "Tibia", "Ulna"],
+    "answer": "Stapes"
+  },
+  {
+    "question": "Tallest animal?",
+    "options": ["Elephant", "Giraffe", "Bear", "Ostrich"],
+    "answer": "Giraffe"
+  },
+  {
+    "question": "Most spoken language?",
+    "options": ["English", "Hindi", "Mandarin", "Spanish"],
+    "answer": "Mandarin"
+  },
+  {
+    "question": "First U.S. president?",
+    "options": ["Lincoln", "Adams", "Washington", "Jefferson"],
+    "answer": "Washington"
+  },
+  {
+    "question": "Longest river?",
+    "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+    "answer": "Nile"
+  },
+  {
+    "question": "Capital of France?",
+    "options": ["Paris", "Rome", "Berlin", "Madrid"],
+    "answer": "Paris"
+  },
+  {
+    "question": "Fastest land animal?",
+    "options": ["Lion", "Cheetah", "Horse", "Gazelle"],
+    "answer": "Cheetah"
+  },
+  {
+    "question": "Hardest natural substance?",
+    "options": ["Steel", "Gold", "Diamond", "Quartz"],
+    "answer": "Diamond"
+  },
+  {
+    "question": "Which gas do plants absorb?",
+    "options": ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "question": "How many continents are there?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "question": "Hottest planet in the solar system?",
+    "options": ["Mercury", "Venus", "Mars", "Jupiter"],
+    "answer": "Venus"
+  },
+  {
+    "question": "Chemical symbol for water?",
+    "options": ["O2", "H2O", "CO2", "HO2"],
+    "answer": "H2O"
+  },
+  {
+    "question": "Which country invented pizza?",
+    "options": ["France", "Greece", "Italy", "USA"],
+    "answer": "Italy"
+  },
+  {
+    "question": "Largest mammal?",
+    "options": ["Elephant", "Blue Whale", "Hippopotamus", "Giraffe"],
+    "answer": "Blue Whale"
+  },
+  {
+    "question": "Which ocean is the deepest?",
+    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+    "answer": "Pacific"
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "options": ["90", "100", "120", "80"],
+    "answer": "100"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Venus", "Mars", "Jupiter"],
+    "answer": "Mars"
+  },
+  {
+    "question": "Currency of Japan?",
+    "options": ["Yen", "Won", "Dollar", "Euro"],
+    "answer": "Yen"
+  },
+  {
+    "question": "Number of planets in the solar system?",
+    "options": ["7", "8", "9", "10"],
+    "answer": "8"
+  },
+  {
+    "question": "Largest desert in the world?",
+    "options": ["Sahara", "Antarctica", "Gobi", "Kalahari"],
+    "answer": "Antarctica"
+  },
+  {
+    "question": "Which organ pumps blood?",
+    "options": ["Brain", "Lungs", "Liver", "Heart"],
+    "answer": "Heart"
+  },
+  {
+    "question": "Most abundant gas in Earth's atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "answer": "Nitrogen"
+  },
+  {
+    "question": "Who wrote 'Hamlet'?",
+    "options": ["Charles Dickens", "Jane Austen", "Shakespeare", "Mark Twain"],
+    "answer": "Shakespeare"
+  },
+  {
+    "question": "How many legs does a spider have?",
+    "options": ["6", "8", "10", "12"],
+    "answer": "8"
+  },
+  {
+    "question": "Which blood type is universal donor?",
+    "options": ["A", "B", "O-", "AB+"],
+    "answer": "O-"
+  },
+  {
+    "question": "Which animal is known for changing colors?",
+    "options": ["Chameleon", "Frog", "Octopus", "Caterpillar"],
+    "answer": "Chameleon"
+  },
+  {
+    "question": "Which country has the most population?",
+    "options": ["India", "USA", "China", "Russia"],
+    "answer": "India"
+  },
+  {
+    "question": "How many days in a leap year?",
+    "options": ["365", "366", "364", "360"],
+    "answer": "366"
+  },
+  {
+    "question": "What is the main language in Brazil?",
+    "options": ["Spanish", "Portuguese", "English", "French"],
+    "answer": "Portuguese"
+  },
+  {
+    "question": "Which planet has rings?",
+    "options": ["Earth", "Mars", "Saturn", "Venus"],
+    "answer": "Saturn"
+  },
+  {
+    "question": "Largest internal organ?",
+    "options": ["Liver", "Heart", "Lungs", "Kidney"],
+    "answer": "Liver"
+  },
+  {
+    "question": "How many teeth does an adult human have?",
+    "options": ["28", "30", "32", "36"],
+    "answer": "32"
+  },
+  {
+    "question": "How many bones in the adult human body?",
+    "options": ["206", "201", "198", "210"],
+    "answer": "206"
+  },
+  {
+    "question": "Which country is famous for tulips?",
+    "options": ["France", "Netherlands", "Italy", "Belgium"],
+    "answer": "Netherlands"
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "answer": "Canberra"
+  },
+  {
+    "question": "Which instrument has black and white keys?",
+    "options": ["Guitar", "Violin", "Piano", "Drums"],
+    "answer": "Piano"
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "options": ["Mercury", "Venus", "Mars", "Earth"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "Which animal lays the largest eggs?",
+    "options": ["Chicken", "Ostrich", "Duck", "Eagle"],
+    "answer": "Ostrich"
+  },
+  {
+    "question": "Which country is the Eiffel Tower in?",
+    "options": ["Germany", "Italy", "France", "Spain"],
+    "answer": "France"
+  },
+  {
+    "question": "Which bird is known for mimicking sounds?",
+    "options": ["Parrot", "Crow", "Eagle", "Owl"],
+    "answer": "Parrot"
+  },
+  {
+    "question": "In which sport is the term 'love' used?",
+    "options": ["Football", "Tennis", "Cricket", "Basketball"],
+    "answer": "Tennis"
+  },
+  {
+    "question": "Which month has 28 or 29 days?",
+    "options": ["February", "April", "June", "November"],
+    "answer": "February"
+  },
+  {
+    "question": "Which planet is known for its storms?",
+    "options": ["Earth", "Saturn", "Jupiter", "Uranus"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "Which element is needed for breathing?",
+    "options": ["Carbon", "Oxygen", "Hydrogen", "Helium"],
+    "answer": "Oxygen"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "options": ["Heart", "Liver", "Skin", "Brain"],
+    "answer": "Skin"
+  },
+  {
+    "question": "Which continent is Egypt in?",
+    "options": ["Asia", "Europe", "Africa", "Australia"],
+    "answer": "Africa"
+  },
+  {
+    "question": "Which color is made by mixing red and blue?",
+    "options": ["Purple", "Green", "Orange", "Pink"],
+    "answer": "Purple"
+  },
+  {
+    "question": "Which animal is the symbol of peace?",
+    "options": ["Dove", "Eagle", "Lion", "Peacock"],
+    "answer": "Dove"
+  },
+  {
+    "question": "What is the tallest mountain in the world?",
+    "options": ["K2", "Everest", "Kilimanjaro", "Makalu"],
+    "answer": "Everest"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "answer": "Ottawa"
+  },
+  {
+    "question": "What is the main ingredient in bread?",
+    "options": ["Rice", "Flour", "Corn", "Barley"],
+    "answer": "Flour"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": ["Michelangelo", "Da Vinci", "Van Gogh", "Picasso"],
+    "answer": "Da Vinci"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Gd", "Au", "Ag", "Go"],
+    "answer": "Au"
+  },
+  {
+    "question": "How many hearts does an octopus have?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "3"
+  },
+  {
+    "question": "Which country hosted the 2016 Summer Olympics?",
+    "options": ["Japan", "Brazil", "USA", "UK"],
+    "answer": "Brazil"
+  },
+  {
+    "question": "Which animal is known as the king of the jungle?",
+    "options": ["Tiger", "Lion", "Elephant", "Leopard"],
+    "answer": "Lion"
+  },
+  {
+    "question": "What does 'www' stand for in a website address?",
+    "options": ["World Wide Web", "Web World Wide", "Wide Web World", "World Web Wide"],
+    "answer": "World Wide Web"
+  },
+  {
+    "question": "Which continent has the most countries?",
+    "options": ["Asia", "Europe", "Africa", "South America"],
+    "answer": "Africa"
+  },
+  {
+    "question": "Which country is shaped like a boot?",
+    "options": ["Portugal", "Spain", "Italy", "Greece"],
+    "answer": "Italy"
+  },
+  {
+    "question": "Which musical instrument has six strings?",
+    "options": ["Guitar", "Violin", "Piano", "Drum"],
+    "answer": "Guitar"
+  },
+  {
+    "question": "How many players in a soccer team on the field?",
+    "options": ["9", "10", "11", "12"],
+    "answer": "11"
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "2"
+  },
+  {
+    "question": "Which natural disaster is measured with the Richter scale?",
+    "options": ["Tornado", "Hurricane", "Earthquake", "Flood"],
+    "answer": "Earthquake"
+  },
+  {
+    "question": "What is the hardest rock?",
+    "options": ["Granite", "Obsidian", "Marble", "Diamond"],
+    "answer": "Diamond"
+  },
+  {
+    "question": "Which is the largest island in the world?",
+    "options": ["Greenland", "Australia", "New Guinea", "Madagascar"],
+    "answer": "Greenland"
+  },
+  {
+    "question": "What do bees collect and use to make honey?",
+    "options": ["Water", "Pollen", "Nectar", "Sap"],
+    "answer": "Nectar"
+  },
+  {
+    "question": "Which color is a mix of blue and yellow?",
+    "options": ["Green", "Purple", "Orange", "Brown"],
+    "answer": "Green"
+  },
+  {
+    "question": "Who discovered gravity?",
+    "options": ["Einstein", "Newton", "Galileo", "Darwin"],
+    "answer": "Newton"
+  },
+  {
+    "question": "What is a baby cat called?",
+    "options": ["Puppy", "Cub", "Kitten", "Calf"],
+    "answer": "Kitten"
+  },
+  {
+    "question": "Which part of the plant conducts photosynthesis?",
+    "options": ["Root", "Stem", "Flower", "Leaf"],
+    "answer": "Leaf"
+  },
+  {
+    "question": "What is the name of the fairy in Peter Pan?",
+    "options": ["Wendy", "Tinker Bell", "Pixie", "Bella"],
+    "answer": "Tinker Bell"
+  },
+  {
+    "question": "What is the name of our galaxy?",
+    "options": ["Andromeda", "Milky Way", "Orion", "Pegasus"],
+    "answer": "Milky Way"
+  },
+  {
+    "question": "What is the fastest marine mammal?",
+    "options": ["Dolphin", "Orca", "Seal", "Blue Whale"],
+    "answer": "Dolphin"
+  },
+  {
+    "question": "What do you call an animal that eats only plants?",
+    "options": ["Carnivore", "Omnivore", "Herbivore", "Insectivore"],
+    "answer": "Herbivore"
+  },
+  {
+    "question": "Which famous scientist developed the theory of relativity?",
+    "options": ["Isaac Newton", "Marie Curie", "Albert Einstein", "Niels Bohr"],
+    "answer": "Albert Einstein"
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "question": "Which animal is known to have black and white stripes?",
+    "options": ["Tiger", "Zebra", "Panda", "Skunk"],
+    "answer": "Zebra"
+  },
+  {
+    "question": "Which bird is often associated with delivering babies?",
+    "options": ["Swan", "Dove", "Stork", "Owl"],
+    "answer": "Stork"
+  },
+  {
+    "question": "What does a thermometer measure?",
+    "options": ["Speed", "Pressure", "Humidity", "Temperature"],
+    "answer": "Temperature"
+  },
+  {
+    "question": "What is the main gas found in the air we breathe?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "answer": "Nitrogen"
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "Thailand", "Japan", "South Korea"],
+    "answer": "Japan"
+  },
+  {
+    "question": "How many colors are there in a rainbow?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "question": "What is the capital of Germany?",
+    "options": ["Frankfurt", "Munich", "Berlin", "Hamburg"],
+    "answer": "Berlin"
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": ["Mercury", "Lead", "Iron", "Aluminum"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "Who invented the light bulb?",
+    "options": ["Edison", "Tesla", "Newton", "Bell"],
+    "answer": "Edison"
+  },
+  {
+    "question": "Which insect produces silk?",
+    "options": ["Bee", "Butterfly", "Silkworm", "Ant"],
+    "answer": "Silkworm"
+  },
+  {
+    "question": "What is the largest bird?",
+    "options": ["Eagle", "Penguin", "Ostrich", "Albatross"],
+    "answer": "Ostrich"
+  },
+  {
+    "question": "Which country is the Taj Mahal in?",
+    "options": ["Pakistan", "India", "Nepal", "Bangladesh"],
+    "answer": "India"
+  },
+  {
+    "question": "Which is the smallest continent?",
+    "options": ["Europe", "Australia", "South America", "Antarctica"],
+    "answer": "Australia"
+  },
+  {
+    "question": "Which star is closest to Earth?",
+    "options": ["Alpha Centauri", "Proxima Centauri", "Sirius", "Sun"],
+    "answer": "Sun"
+  },
+  {
+    "question": "How many hours in a day?",
+    "options": ["12", "24", "48", "60"],
+    "answer": "24"
+  },
+  {
+    "question": "What is the main ingredient in sushi?",
+    "options": ["Pasta", "Rice", "Bread", "Corn"],
+    "answer": "Rice"
+  },
+  {
+    "question": "What is the tallest building in the world (as of 2024)?",
+    "options": ["Shanghai Tower", "Abraj Al-Bait", "Burj Khalifa", "One World Trade Center"],
+    "answer": "Burj Khalifa"
+  },
+  {
+    "question": "Which ocean is on the east coast of the United States?",
+    "options": ["Pacific", "Indian", "Atlantic", "Arctic"],
+    "answer": "Atlantic"
+  },
+  {
+    "question": "Which planet is known for having moons named Phobos and Deimos?",
+    "options": ["Earth", "Jupiter", "Mars", "Saturn"],
+    "answer": "Mars"
+  },
+  {
+    "question": "Which shape has four equal sides and angles?",
+    "options": ["Rectangle", "Triangle", "Square", "Trapezoid"],
+    "answer": "Square"
+  }
+]

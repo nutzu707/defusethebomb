@@ -49,6 +49,10 @@ export default function Bomb() {
   const [running, setRunning] = useState(false);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
+  // For accurate timer: store the timestamp when the timer started or resumed
+  const startTimestampRef = useRef<number | null>(null);
+  const lastTimeLeftRef = useRef<number>(60000);
+
   const [questions, setQuestions] = useState<Question[]>([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
@@ -81,20 +85,26 @@ export default function Bomb() {
     fetchQuestions();
   }, []);
 
-  // Timer logic
+  // Accurate timer logic using timestamps
   useEffect(() => {
     if (running && timeLeft > 0) {
+      // Set the start timestamp and lastTimeLeftRef
+      if (startTimestampRef.current === null) {
+        startTimestampRef.current = performance.now();
+        lastTimeLeftRef.current = timeLeft;
+      }
       intervalRef.current = setInterval(() => {
-        setTimeLeft((prev) => {
-          if (prev <= 10) {
+        if (startTimestampRef.current !== null) {
+          const elapsed = performance.now() - startTimestampRef.current;
+          const newTimeLeft = Math.max(0, Math.round(lastTimeLeftRef.current - elapsed));
+          setTimeLeft(newTimeLeft);
+          if (newTimeLeft <= 0) {
             clearInterval(intervalRef.current!);
             setTimeExpired(true);
             setRunning(false);
-            return 0;
           }
-          return prev - 10;
-        });
-      }, 10);
+        }
+      }, 50);
     }
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
@@ -140,6 +150,17 @@ export default function Bomb() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [correctCount, timeExpired, timeLeft, defuseTime]);
 
+  // When pausing or resetting, update lastTimeLeftRef and clear startTimestampRef
+  const pauseTimer = () => {
+    if (startTimestampRef.current !== null) {
+      const elapsed = performance.now() - startTimestampRef.current;
+      lastTimeLeftRef.current = Math.max(0, Math.round(lastTimeLeftRef.current - elapsed));
+      setTimeLeft(lastTimeLeftRef.current);
+      startTimestampRef.current = null;
+    }
+    if (intervalRef.current) clearInterval(intervalRef.current);
+  };
+
   const handleStart = () => {
     if (!running && timeLeft > 0) {
       setRunning(true);
@@ -148,6 +169,10 @@ export default function Bomb() {
       setDefuseTime(null);
       setCorrectCount(0);
       setCurrent(0);
+      // Reset timer state
+      startTimestampRef.current = null;
+      lastTimeLeftRef.current = 60000;
+      setTimeLeft(60000);
     }
   };
 
@@ -161,7 +186,16 @@ export default function Bomb() {
       setCorrectCount((prev) => prev + 1);
     } else {
       setAnswerStatus("wrong");
-      setTimeLeft((prev) => Math.max(0, prev - 5000));
+      // Subtract 5 seconds from both timeLeft and lastTimeLeftRef
+      setTimeLeft((prev) => {
+        const newTime = Math.max(0, prev - 5000);
+        lastTimeLeftRef.current = newTime;
+        // Also update startTimestampRef so timer continues smoothly
+        if (startTimestampRef.current !== null) {
+          startTimestampRef.current = performance.now();
+        }
+        return newTime;
+      });
     }
     // Move to next question after short delay
     setTimeout(() => {
@@ -180,6 +214,10 @@ export default function Bomb() {
     setDefuseTime(null);
     setCorrectCount(0);
     fetchQuestions();
+    // Reset timer state
+    startTimestampRef.current = null;
+    lastTimeLeftRef.current = 60000;
+    if (intervalRef.current) clearInterval(intervalRef.current);
   };
 
   // The quiz is done if you have 6 correct answers, or you have answered all questions, or time expired
