@@ -1,0 +1,438 @@
+[
+    {
+      "question": "Fastest land animal?",
+      "options": ["Cheetah", "Lion", "Horse", "Kangaroo"],
+      "answer": "Cheetah"
+    },
+    {
+      "question": "Capital of Japan?",
+      "options": ["Tokyo", "Kyoto", "Osaka", "Nagoya"],
+      "answer": "Tokyo"
+    },
+    {
+      "question": "Largest planet?",
+      "options": ["Earth", "Jupiter", "Saturn", "Mars"],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "Heaviest metal?",
+      "options": ["Iron", "Lead", "Osmium", "Gold"],
+      "answer": "Osmium"
+    },
+    {
+      "question": "Smallest bone?",
+      "options": ["Femur", "Stapes", "Tibia", "Ulna"],
+      "answer": "Stapes"
+    },
+    {
+      "question": "Tallest animal?",
+      "options": ["Elephant", "Giraffe", "Bear", "Ostrich"],
+      "answer": "Giraffe"
+    },
+    {
+      "question": "Most spoken language?",
+      "options": ["English", "Hindi", "Mandarin", "Spanish"],
+      "answer": "Mandarin"
+    },
+    {
+      "question": "First U.S. president?",
+      "options": ["Lincoln", "Adams", "Washington", "Jefferson"],
+      "answer": "Washington"
+    },
+    {
+      "question": "Longest river?",
+      "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+      "answer": "Nile"
+    },
+    {
+      "question": "Hardest substance?",
+      "options": ["Diamond", "Gold", "Steel", "Quartz"],
+      "answer": "Diamond"
+    },
+    {
+      "question": "5 + 7 = ?",
+      "options": ["12", "10", "14", "13"],
+      "answer": "12"
+    },
+    {
+      "question": "Largest ocean?",
+      "options": ["Atlantic", "Pacific", "Indian", "Arctic"],
+      "answer": "Pacific"
+    },
+    {
+      "question": "Main gas in air?",
+      "options": ["Oxygen", "Nitrogen", "CO2", "Hydrogen"],
+      "answer": "Nitrogen"
+    },
+    {
+      "question": "Most used emoji?",
+      "options": ["😂", "❤️", "👍", "😭"],
+      "answer": "😂"
+    },
+    {
+      "question": "Hottest planet in the solar system?",
+      "options": ["Venus", "Mercury", "Mars", "Jupiter"],
+      "answer": "Venus"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["Shakespeare", "Dickens", "Austen", "Hemingway"],
+      "answer": "Shakespeare"
+    },
+    {
+      "question": "Chemical symbol for gold?",
+      "options": ["Au", "Ag", "Gd", "Go"],
+      "answer": "Au"
+    },
+    {
+      "question": "Largest mammal?",
+      "options": ["Blue whale", "Elephant", "Giraffe", "Hippopotamus"],
+      "answer": "Blue whale"
+    },
+    {
+      "question": "First element on the periodic table?",
+      "options": ["Hydrogen", "Helium", "Oxygen", "Carbon"],
+      "answer": "Hydrogen"
+    },
+    {
+      "question": "Which country invented pizza?",
+      "options": ["Italy", "France", "USA", "Greece"],
+      "answer": "Italy"
+    },
+    {
+      "question": "How many continents are there?",
+      "options": ["7", "5", "6", "8"],
+      "answer": "7"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+      "answer": "Mars"
+    },
+    {
+      "question": "What is the boiling point of water (°C)?",
+      "options": ["100", "90", "80", "120"],
+      "answer": "100"
+    },
+    {
+      "question": "Which animal is known as the King of the Jungle?",
+      "options": ["Lion", "Tiger", "Elephant", "Leopard"],
+      "answer": "Lion"
+    },
+    {
+      "question": "What is the capital of France?",
+      "options": ["Paris", "London", "Berlin", "Madrid"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Which is the smallest continent?",
+      "options": ["Australia", "Europe", "Antarctica", "South America"],
+      "answer": "Australia"
+    },
+    {
+      "question": "What is the square root of 64?",
+      "options": ["8", "6", "7", "9"],
+      "answer": "8"
+    },
+    {
+      "question": "Which gas do plants absorb?",
+      "options": ["CO2", "Oxygen", "Nitrogen", "Hydrogen"],
+      "answer": "CO2"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Leonardo da Vinci", "Michelangelo", "Picasso", "Van Gogh"],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "Which is the largest desert?",
+      "options": ["Sahara", "Gobi", "Kalahari", "Arctic"],
+      "answer": "Sahara"
+    },
+    {
+      "question": "Which is the longest bone in the human body?",
+      "options": ["Femur", "Tibia", "Humerus", "Fibula"],
+      "answer": "Femur"
+    },
+    {
+      "question": "Which is the largest internal organ?",
+      "options": ["Liver", "Heart", "Lung", "Kidney"],
+      "answer": "Liver"
+    },
+    {
+      "question": "Which is the largest bird?",
+      "options": ["Ostrich", "Eagle", "Penguin", "Albatross"],
+      "answer": "Ostrich"
+    },
+    {
+      "question": "Which is the smallest prime number?",
+      "options": ["2", "1", "3", "5"],
+      "answer": "2"
+    },
+    {
+      "question": "Which is the largest island?",
+      "options": ["Greenland", "Australia", "Borneo", "Madagascar"],
+      "answer": "Greenland"
+    },
+    {
+      "question": "Which is the largest country by area?",
+      "options": ["Russia", "Canada", "China", "USA"],
+      "answer": "Russia"
+    },
+    {
+      "question": "Which is the most abundant gas in Earth's atmosphere?",
+      "options": ["Nitrogen", "Oxygen", "CO2", "Argon"],
+      "answer": "Nitrogen"
+    },
+    {
+      "question": "Which is the largest continent?",
+      "options": ["Asia", "Africa", "Europe", "North America"],
+      "answer": "Asia"
+    },
+    {
+      "question": "Which is the smallest ocean?",
+      "options": ["Arctic", "Indian", "Atlantic", "Pacific"],
+      "answer": "Arctic"
+    },
+    {
+      "question": "Which is the largest bone in the human body?",
+      "options": ["Femur", "Tibia", "Humerus", "Radius"],
+      "answer": "Femur"
+    },
+    {
+      "question": "Which is the largest muscle in the human body?",
+      "options": ["Gluteus maximus", "Biceps", "Triceps", "Deltoid"],
+      "answer": "Gluteus maximus"
+    },
+    {
+      "question": "Which is the largest land carnivore?",
+      "options": ["Polar bear", "Lion", "Tiger", "Grizzly bear"],
+      "answer": "Polar bear"
+    },
+    {
+      "question": "Which is the largest reptile?",
+      "options": ["Saltwater crocodile", "Komodo dragon", "Anaconda", "Alligator"],
+      "answer": "Saltwater crocodile"
+    },
+    {
+      "question": "Which is the largest fish?",
+      "options": ["Whale shark", "Great white shark", "Bluefin tuna", "Manta ray"],
+      "answer": "Whale shark"
+    },
+    {
+      "question": "Which is the largest flower?",
+      "options": ["Rafflesia", "Sunflower", "Rose", "Lily"],
+      "answer": "Rafflesia"
+    },
+    {
+      "question": "Which is the largest volcano?",
+      "options": ["Mauna Loa", "Mount Everest", "Krakatoa", "Mount Fuji"],
+      "answer": "Mauna Loa"
+    },
+    {
+      "question": "Which is the largest lake?",
+      "options": ["Caspian Sea", "Lake Superior", "Lake Victoria", "Lake Baikal"],
+      "answer": "Caspian Sea"
+    },
+    {
+      "question": "Which is the largest waterfall?",
+      "options": ["Angel Falls", "Niagara Falls", "Victoria Falls", "Iguazu Falls"],
+      "answer": "Angel Falls"
+    },
+    {
+      "question": "Which is the largest dam?",
+      "options": ["Three Gorges", "Hoover", "Itaipu", "Aswan"],
+      "answer": "Three Gorges"
+    },
+    {
+      "question": "Which is the largest stadium?",
+      "options": ["Rungrado 1st of May", "Camp Nou", "Wembley", "Maracanã"],
+      "answer": "Rungrado 1st of May"
+    },
+    {
+      "question": "Which is the largest airport?",
+      "options": ["King Fahd", "Hartsfield–Jackson", "Beijing Capital", "Dubai Intl"],
+      "answer": "King Fahd"
+    },
+    {
+      "question": "Which is the largest animal ever?",
+      "options": ["Blue whale", "Argentinosaurus", "Megalodon", "Tyrannosaurus"],
+      "answer": "Blue whale"
+    },
+    {
+      "question": "Which is the largest living lizard?",
+      "options": ["Komodo dragon", "Monitor lizard", "Iguana", "Gecko"],
+      "answer": "Komodo dragon"
+    },
+    {
+      "question": "Which is the largest rodent?",
+      "options": ["Capybara", "Beaver", "Rat", "Guinea pig"],
+      "answer": "Capybara"
+    },
+    {
+      "question": "Which is the largest marsupial?",
+      "options": ["Red kangaroo", "Koala", "Wombat", "Tasmanian devil"],
+      "answer": "Red kangaroo"
+    },
+    {
+      "question": "Which is the largest bat?",
+      "options": ["Flying fox", "Vampire bat", "Fruit bat", "Little brown bat"],
+      "answer": "Flying fox"
+    },
+    {
+      "question": "Which is the largest species of penguin?",
+      "options": ["Emperor", "King", "Adelie", "Chinstrap"],
+      "answer": "Emperor"
+    },
+    {
+      "question": "Which is the largest species of shark?",
+      "options": ["Whale shark", "Great white", "Hammerhead", "Tiger shark"],
+      "answer": "Whale shark"
+    },
+    {
+      "question": "Which is the largest species of bear?",
+      "options": ["Polar bear", "Grizzly", "Black bear", "Panda"],
+      "answer": "Polar bear"
+    },
+    {
+      "question": "Which is the largest species of cat?",
+      "options": ["Tiger", "Lion", "Leopard", "Jaguar"],
+      "answer": "Tiger"
+    },
+    {
+      "question": "Which is the largest species of dog?",
+      "options": ["English Mastiff", "Great Dane", "Saint Bernard", "Irish Wolfhound"],
+      "answer": "English Mastiff"
+    },
+    {
+      "question": "Which is the largest species of deer?",
+      "options": ["Moose", "Elk", "Red deer", "Reindeer"],
+      "answer": "Moose"
+    },
+    {
+      "question": "Which is the largest species of snake?",
+      "options": ["Green anaconda", "Reticulated python", "King cobra", "Boa constrictor"],
+      "answer": "Green anaconda"
+    },
+    {
+      "question": "Which is the largest species of turtle?",
+      "options": ["Leatherback", "Green sea turtle", "Loggerhead", "Hawksbill"],
+      "answer": "Leatherback"
+    },
+    {
+      "question": "Which is the largest species of frog?",
+      "options": ["Goliath frog", "Bullfrog", "Tree frog", "Poison dart frog"],
+      "answer": "Goliath frog"
+    },
+    {
+      "question": "Which is the largest species of butterfly?",
+      "options": ["Queen Alexandra's birdwing", "Monarch", "Swallowtail", "Blue morpho"],
+      "answer": "Queen Alexandra's birdwing"
+    },
+    {
+      "question": "Which is the largest species of spider?",
+      "options": ["Goliath birdeater", "Tarantula", "Black widow", "Wolf spider"],
+      "answer": "Goliath birdeater"
+    },
+    {
+      "question": "Which is the largest species of ant?",
+      "options": ["Driver ant", "Bullet ant", "Carpenter ant", "Fire ant"],
+      "answer": "Driver ant"
+    },
+    {
+      "question": "Which is the largest species of bee?",
+      "options": ["Wallace's giant bee", "Honey bee", "Bumblebee", "Carpenter bee"],
+      "answer": "Wallace's giant bee"
+    },
+    {
+      "question": "Which is the largest species of fish in freshwater?",
+      "options": ["Beluga sturgeon", "Catfish", "Piranha", "Salmon"],
+      "answer": "Beluga sturgeon"
+    },
+    {
+      "question": "Which is the largest species of crocodile?",
+      "options": ["Saltwater crocodile", "Nile crocodile", "American crocodile", "Dwarf crocodile"],
+      "answer": "Saltwater crocodile"
+    },
+    {
+      "question": "Which is the largest species of eagle?",
+      "options": ["Harpy eagle", "Bald eagle", "Golden eagle", "Steller's sea eagle"],
+      "answer": "Harpy eagle"
+    },
+    {
+      "question": "Which is the largest species of owl?",
+      "options": ["Blakiston's fish owl", "Great horned owl", "Snowy owl", "Barn owl"],
+      "answer": "Blakiston's fish owl"
+    },
+    {
+      "question": "Which is the largest species of parrot?",
+      "options": ["Hyacinth macaw", "African grey", "Cockatoo", "Amazon parrot"],
+      "answer": "Hyacinth macaw"
+    },
+    {
+      "question": "Which is the largest species of dolphin?",
+      "options": ["Orca", "Bottlenose", "Spinner", "Irrawaddy"],
+      "answer": "Orca"
+    },
+    {
+      "question": "Which is the largest species of whale?",
+      "options": ["Blue whale", "Humpback", "Sperm whale", "Gray whale"],
+      "answer": "Blue whale"
+    },
+    {
+      "question": "Which is the largest species of squid?",
+      "options": ["Colossal squid", "Giant squid", "Humboldt squid", "Arrow squid"],
+      "answer": "Colossal squid"
+    },
+    {
+      "question": "Which is the largest species of octopus?",
+      "options": ["Giant Pacific octopus", "Blue-ringed octopus", "Common octopus", "Dumbo octopus"],
+      "answer": "Giant Pacific octopus"
+    },
+    {
+      "question": "Which is the largest species of crab?",
+      "options": ["Japanese spider crab", "King crab", "Blue crab", "Hermit crab"],
+      "answer": "Japanese spider crab"
+    },
+    {
+      "question": "Which is the largest species of lobster?",
+      "options": ["American lobster", "Spiny lobster", "Slipper lobster", "Rock lobster"],
+      "answer": "American lobster"
+    },
+    {
+      "question": "Which is the largest species of shrimp?",
+      "options": ["Mantis shrimp", "Tiger prawn", "White shrimp", "Brown shrimp"],
+      "answer": "Mantis shrimp"
+    },
+    {
+      "question": "Which is the largest species of jellyfish?",
+      "options": ["Lion's mane", "Moon jelly", "Box jelly", "Sea nettle"],
+      "answer": "Lion's mane"
+    },
+    {
+      "question": "Which is the largest species of coral?",
+      "options": ["Great Barrier Reef", "Red Sea Coral", "Elkhorn coral", "Staghorn coral"],
+      "answer": "Great Barrier Reef"
+    },
+    {
+      "question": "Which is the largest species of sea star?",
+      "options": ["Sunflower sea star", "Crown-of-thorns", "Brittle star", "Bat star"],
+      "answer": "Sunflower sea star"
+    },
+    {
+      "question": "Which is the largest species of sea urchin?",
+      "options": ["Red sea urchin", "Purple sea urchin", "Green sea urchin", "Slate pencil urchin"],
+      "answer": "Red sea urchin"
+    },
+    {
+      "question": "Which is the largest species of sea cucumber?",
+      "options": ["Tiger's tail", "Black sea cucumber", "Pink sea cucumber", "Leopard sea cucumber"],
+      "answer": "Tiger's tail"
+    },
+    {
+      "question": "Which is the largest species of barnacle?",
+      "options": ["Giant acorn barnacle", "Goose barnacle", "Rock barnacle", "Little brown barnacle"],
+      "answer": "Giant acorn barnacle"
+    }
+  ]
+  
