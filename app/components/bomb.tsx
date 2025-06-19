@@ -228,7 +228,7 @@ export default function Bomb() {
             {!quizStarted && (
               <div className="w-full h-full flex items-center flex-col justify-center gap-2">
 
-                <h1 className="text-white text-5xl pb-8 text-center">How to play?</h1>
+                <h1 className="text-white text-6xl pb-8 text-center">How to play?</h1>
                 <p className="text-white text-3xl text-center">
                   You have <span className="text-yellow-400">60 seconds</span>
                 </p>
