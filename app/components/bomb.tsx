@@ -53,7 +53,7 @@ export default function Bomb() {
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [answerStatus, setAnswerStatus] = useState<"correct" | "wrong" | null>(null);
-  const [optionsOrder, setOptionsOrder] = useState<number[]>([]);
+  // Removed optionsOrder state as it was unused
   const [quizStarted, setQuizStarted] = useState(false);
 
   // New: Track if quiz is over due to time running out
@@ -74,7 +74,7 @@ export default function Bomb() {
             options: shuffle(q.options),
           }));
         setQuestions(shuffled);
-        setOptionsOrder(shuffled.length > 0 ? shuffle([0, 1, 2, 3]) : []);
+        // Removed setOptionsOrder as optionsOrder is not used
       });
   };
 
@@ -100,14 +100,16 @@ export default function Bomb() {
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [running]);
+  // ^^^ intentionally omitting timeLeft from deps to avoid breaking timer logic
 
-  // When question changes, reset selection and shuffle options
+  // When question changes, reset selection
   useEffect(() => {
     if (questions.length > 0 && current < questions.length) {
       setSelected(null);
       setAnswerStatus(null);
-      setOptionsOrder(shuffle([0, 1, 2, 3]));
+      // Removed setOptionsOrder as optionsOrder is not used
     }
   }, [current, questions]);
 
@@ -137,6 +139,7 @@ export default function Bomb() {
     ) {
       setDefuseTime(timeLeft);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [current, timeExpired, timeLeft, defuseTime]);
 
   const handleStart = () => {
@@ -182,7 +185,6 @@ export default function Bomb() {
   const quizDone = current >= questions.length;
 
   const finishedBeforeTime = quizDone && !timeExpired && timeLeft > 0;
-  const failedDueToTime = quizDone && (timeExpired || timeLeft === 0);
 
   let timerDisplay;
   let timerClass =
@@ -223,11 +225,11 @@ export default function Bomb() {
           <div className="w-1/2 h-200 flex flex-col items-center mt-32">
             {!quizStarted && (
               <div className="w-full h-full flex items-center justify-center gap-2">
-                <button className="bg-white/30 hover:bg-white/70 text-white px-4 py-2 rounded-md cursor-pointer text-4xl">
+                <button className="bg-white/30 hover:bg-white/70 text-white px-4 py-2 rounded-md cursor-pointer text-3xl">
                   WHAT?
                 </button>
                 <button
-                  className="bg-white/30 hover:bg-white/70 text-white px-4 py-2 rounded-md cursor-pointer text-4xl"
+                  className="bg-white/30 hover:bg-white/70 text-white px-4 py-2 rounded-md cursor-pointer text-3xl"
                   onClick={handleStart}
                   disabled={running || timeLeft === 0 || quizStarted}
                   style={running || timeLeft === 0 || quizStarted ? { opacity: 0.5, cursor: "not-allowed" } : {}}
@@ -257,7 +259,7 @@ export default function Bomb() {
                       </span>
                     </h2>
                     <button
-                      className="bg-white/30 hover:bg-white/70 text-white px-4 py-2 rounded-md cursor-pointer text-4xl mx-auto mt-4"
+                      className="bg-white/30 hover:bg-white/70 text-white px-4 py-2 rounded-md cursor-pointer text-3xl mx-auto mt-4"
                       onClick={handleRetry}
                     >
                       Try Again
@@ -270,7 +272,7 @@ export default function Bomb() {
                       You <span className="text-red-500">&nbsp;failed&nbsp;</span> to defuse the bomb in time.
                     </h2>
                     <button
-                      className="bg-white/30 hover:bg-white/70 text-white px-4 py-2 rounded-md cursor-pointer text-4xl mx-auto mt-4"
+                      className="bg-white/30 hover:bg-white/70 text-white px-4 py-2 rounded-md cursor-pointer text-3xl mx-auto mt-4"
                       onClick={handleRetry}
                     >
                       Try Again
@@ -282,7 +284,7 @@ export default function Bomb() {
                   <h1 className="text-white text-5xl p-8 text-center h-48">
                     {questions[current].question}
                   </h1>
-                  <div className="flex flex-col gap-1 w-full">
+                  <div className="flex flex-col gap-1.5 w-full">
                     {questions[current].options.map((opt, idx) => {
                       let btnClass =
                         "hover:bg-white/70 bg-white/30 text-white px-4 py-2 rounded-md cursor-pointer text-4xl transition-colors";
